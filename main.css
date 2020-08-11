@@ -1,0 +1,106 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  color: #4c4e61;
+}
+
+main {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+main .text {
+  text-align: center;
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+
+main .text h2 {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+main .text h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+main .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+  margin: 50px auto;
+}
+
+main .cards .card {
+  max-width: 400px;
+  height: 200px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 10px 25px -8px #a3a5ae;
+  box-shadow: 0px 10px 25px -8px #a3a5ae;
+  margin-bottom: 35px;
+  border-radius: 10px;
+}
+
+main .cards .card p {
+  max-width: 300px;
+}
+
+main .cards .card:nth-child(1) {
+  border-top: 5px solid #45d3d3;
+  background: url(images/icon-supervisor.svg) 0 no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+main .cards .centerCards .card:nth-child(1) {
+  border-top: 5px solid #ea5353;
+  background: url(images/icon-team-builder.svg) 0 no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+main .cards .centerCards .card:nth-child(2) {
+  border-top: 5px solid #fcaf4a;
+  background: url(images/icon-karma.svg) 0 no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+main .cards .card:last-child {
+  border-top: 5px solid #549ef2;
+  background: url(images/icon-calculator.svg) 0 no-repeat;
+  background-position: bottom 30px right 30px;
+}
+
+@media screen and (max-width: 768px) {
+  main .cards {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
